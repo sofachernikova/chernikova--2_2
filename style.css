@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #C9D1C8;
+}
+
+header{
+    color: white;
+    background-color: #04202C;
+    width: 100%;
+    min-height: 62px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    word-wrap: break-word;
+    text-align: right;
+    min-width: 5px;
+}
+
+.headerText{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1em;
+}
+
+.headerTextName{
+    grid-column: 1/7;
+    margin-top: 10px;
+    padding-bottom: 5px;
+}
+
+.bg_img{
+    position: absolute;
+    width: 100%;
+    max-height: max-content;
+    left: 0px;
+    top: 13px;
+    z-index: -1;
+}
+
+main{
+    margin: 0;
+    padding: 0;
+}
+
+.firstSection{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1em;
+}
+
+article.base{
+    grid-column: 7/13;
+    margin-top: 60px;
+}
+
+h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 59px;
+    word-wrap: break-word;
+}
+
+h2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    word-wrap: break-word;
+}
+
+label{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 23px;
+    word-wrap: break-word;
+}
+input{
+    background: #304040;
+    opacity: 0.5;
+    border-radius: 10px;
+    border-color: transparent;
+    height: 46px;
+    margin-top: 10px;
+
+    width: 100%;
+    outline: none;
+
+    font-family: Montserrat;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+input:focus{
+    transition: 1s;
+    background: #C9D1C8;
+    opacity: 1;
+    border: 2px solid #5B7065;
+}
+
+article.base2{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-gap: 1em;
+    grid-column: 7/13;
+    margin-top: 30px;
+}
+.a1{
+    grid-column: 1/7;
+}
+.a2{
+    grid-column: 7/13;
+}
+.a3{
+    grid-column: 1/13;
+}
+
+.checkboxLabel{
+    width: 26px;
+    max-height: 26px;
+    background: #C4C4C4;
+    opacity: 1;
+    border: 1px solid #5B7065;
+    box-sizing: border-box;
+    vertical-align: sub;
+    word-wrap: break-word;
+}
+
+button{
+    width: 100%;
+    min-height: 46px;
+    left: 735px;
+    top: 568px;
+    word-wrap: break-word;
+
+    background: #304040;
+
+    border: 1px solid #04202C;
+    box-sizing: border-box;
+    border-radius: 10px;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+
+    text-align: center;
+    color: #C9D1C8;
+    outline: none;
+    margin-top: 30px;
+}
