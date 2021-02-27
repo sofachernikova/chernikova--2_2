@@ -76,7 +76,7 @@ h4{
     font-weight: normal;
     font-size: 19px;
     line-height: 24px;
-    margin-top: 5%;
+    margin-top: 3%;
     word-wrap: break-word;
 }
 
@@ -259,4 +259,42 @@ svg{
 
 p{
     margin-top: 20px;
+}
+
+.fourthSection{
+    min-width: 50px;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: 
+            "c1 c1 c2 c2"
+            "c1 c1 c2 c2"
+            "c3 c3 c4 c5";
+    grid-gap: 2%;
+    word-wrap: break-word;
+}
+
+.withBg{
+    background: rgb(91, 112, 101, 0.5);
+    padding: 5%;
+    display: flex;
+    align-items: center;
+    min-width: 5px;
+}
+
+.c1{
+    grid-area: c1;
+}
+.c2{
+    grid-area: c2;
+}
+.c3{
+    grid-area: c3;
+}
+.c4{
+    grid-area: c4;
+}
+.c5{
+    grid-area: c5;
 }
