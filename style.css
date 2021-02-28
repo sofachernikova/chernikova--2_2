@@ -414,3 +414,20 @@ p{
 .ph1{
     width: 90%;
 }
+
+footer{
+    color: white;
+    background-color: #04202C;
+    display: flex;
+    justify-content: center;
+    min-height: 50px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    word-wrap: break-word;
+    text-align: right;
+    padding-bottom: 15px;
+    text-align: center;
+}
