@@ -335,3 +335,9 @@ p{
 .loremPhoto1{
     max-width: 100%;
 }
+
+.sixthSection{
+    padding: 5%;
+    text-align: center;
+    word-wrap: break-word;
+}
