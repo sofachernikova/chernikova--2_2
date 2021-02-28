@@ -49,7 +49,7 @@ header{
     justify-items: stretch;
 }
 
-article.base{
+.base{
     grid-column: 7/13;
 }
 
@@ -102,11 +102,12 @@ input{
     outline: none;
 
     font-family: Montserrat;
-    font-style: normal;
+    font-style: italic;
     font-weight: 600;
     font-size: 19px;
     line-height: 23px;
     word-wrap: break-word;
+    color: white;
 }
 
 ::placeholder{
@@ -150,7 +151,6 @@ input:focus{
     opacity: 1;
     border: 1px solid #5B7065;
     box-sizing: border-box;
-    vertical-align: sub;
     word-wrap: break-word;
 }
 
@@ -161,6 +161,8 @@ input:focus{
     font-size: 20px;
     line-height: 24px;
     color: white;
+    display: flex;
+    align-items: center;
 }
 
 button{
@@ -185,6 +187,11 @@ button{
     color: #C9D1C8;
     outline: none;
     margin-top: 30px;
+}
+
+button:hover{
+    background: #3b4e4e;
+    transition: 1s;
 }
 
 svg{
@@ -399,6 +406,7 @@ p{
 }
 .t4{
     grid-column: 3/8;
+    align-self: flex-start;
 }
 
 .seventhArticle--photo{
